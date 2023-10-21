@@ -138,6 +138,7 @@ import { ref, onMounted } from 'vue';
 import {GetSysUserListByPage, SaveSysUser, UpdateSysUser, DeleteSysUser, DoAssignRoleToUser} from '@/api/sysUser'
 import {ElMessageBox, ElMessage} from 'element-plus'
 import { useApp } from '@/pinia/modules/app'
+import { GetAllRoleList } from '@/api/sysRole';
 
 
 
